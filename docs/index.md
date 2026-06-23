@@ -6,7 +6,12 @@ layout: default
 
 # Festival Season Networks
 
-Open-source, **AI-readable** assets for autumn and Lunar New Year festival seasons — calendars, research, ecosystem graphs, playbooks, group-activity kits, and case studies.
+Open-source assets for **Lunar New Year & Autumn Festivals** — calendars, research, ecosystem graphs, playbooks, group-activity kits, and case studies.
+
+| Audience | How to use |
+|----------|------------|
+| **People** | **You are here** — these GitHub Pages are human-friendly guides (principles, research, getting started). |
+| **AI agents** | **Clone the [repo](https://github.com/cPALSs/festival-network)** and start at [AGENTS.md](../AGENTS.md). Structured markdown, JSON, and the sheet registry live in the tree — agents work from the clone, not from scraped HTML. |
 
 > **Stub scaffold (Phase 0)** — structure only; not finished research.
 
@@ -14,28 +19,21 @@ Open-source, **AI-readable** assets for autumn and Lunar New Year festival seaso
 
 - **Is:** Neutral shared tools any organizer can fork; decentralized coordination; AI-assisted planning
 - **Is not:** A membership org, event owner, or enforcement body
-- **Is not:** The [cPALSs Festivals Committee](https://github.com/cPALSs/festival) repo — that holds committee production apps (e.g. Build the Festival). This repo is the neutral season library.
-
-## Related repositories
-
-| Repo | Role |
-|------|------|
-| **festival-network** (here) | Neutral public assets — schemas, playbooks, sheet registry |
-| **[cPALSs/festival](https://github.com/cPALSs/festival)** | Festivals Committee tooling for coalition event production |
-
-## Principles
-
-See [Principles (P1–P4)](principles.html).
 
 ## Start here
 
 - [Getting started](getting-started.html)
-- [Google Sheets MCP](google-sheets-mcp.html)
-- [Plan with AI](plan-with-ai.html)
-- [Content workflow](content-workflow.html) — organizer interviews → graph → publish
-- [Ecosystem harmony](ecosystem-harmony.html)
+- [Principles (P1–P4)](principles.html)
+- [Using market research](research.html)
+
+**Planning with AI?** See [Getting started → Planning with AI](getting-started.html#planning-with-ai) or clone the repo and open [AGENTS.md](../AGENTS.md).
 
 ## Seasons
+
+### Lunar New Year
+
+- [Overview](lny/overview.html)
+- [Market research](lny/market-research.html)
 
 ### Autumn
 
@@ -44,22 +42,17 @@ See [Principles (P1–P4)](principles.html).
 - [Calendar & registry](autumn/calendar.html)
 - [Group activity kits](autumn/group-activities.html)
 
-### Lunar New Year
+## Live research
 
-- [Overview](lny/overview.html)
-- [Market research](lny/market-research.html)
+Tabular event data lives in **Google Sheets** (not in the repo). Guides and narrative reports are on this site.
 
-## Asset catalog
+| Season | Competitive landscape |
+|--------|------------------------|
+| **Lunar New Year** | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) — [market research guide](lny/market-research.html) |
+| **Autumn** | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) — [market research guide](autumn/market-research.html) |
 
-| Asset | Path |
-|-------|------|
-| **Autumn competitive landscape (live)** | [Google Sheet](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) · [sheets-registry.json](../assets/sheets-registry.json) |
-| **LNY competitive landscape (live)** | [Google Sheet](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) · [schema](../assets/lny/research/competitive-landscape-schema.md) |
-| Ecosystem graph | [ecosystem-graph.json](../assets/autumn/graphs/ecosystem-graph.json) |
-| Calendar rules | [calendar-rules.json](../assets/autumn/calendars/rules/calendar-rules.json) |
-| Case studies | [assets/case-studies/](../assets/case-studies/) |
-| AGENTS.md | [AGENTS.md](../AGENTS.md) |
+See [Using market research](research.html) for how to read and contribute. **AI agents:** clone the repo and start at [AGENTS.md](../AGENTS.md) — schemas, JSON graphs, and file paths are there, not on these pages.
 
-## Contribute
+## Contact
 
-[contribute.html](contribute.html)
+Questions about the network, season research, or using these assets? Email [contact@cpalss.com](mailto:contact@cpalss.com).

@@ -6,6 +6,8 @@ season: cross
 
 # Plan with AI
 
+For agents: **clone the repo** first. GitHub Pages is for humans; agents work from the repository files.
+
 ## Load AGENTS.md
 
 Point your agent at [AGENTS.md](../AGENTS.md). Load [sheets-registry.json](../assets/sheets-registry.json) first.
@@ -22,6 +24,10 @@ Point your agent at [AGENTS.md](../AGENTS.md). Load [sheets-registry.json](../as
 ## Example prompts
 
 ```
+List tabs in the LNY competitive landscape spreadsheet.
+
+Read all rows from the competitive landscape sheet. Summarize capstone overlap for EGLNY 2027.
+
 List tabs in the autumn competitive landscape spreadsheet.
 
 Read all rows from the competitive landscape sheet. Summarize MAF overlap categories.

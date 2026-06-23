@@ -13,11 +13,11 @@ Canonical links live in [sheets-registry.json](../assets/sheets-registry.json).
 
 | Dataset | Spreadsheet |
 |---------|-------------|
-| Autumn competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
 | LNY competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
+| Autumn competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
 
-**Autumn spreadsheet ID:** `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA`  
-**LNY spreadsheet ID:** `1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0`
+**LNY spreadsheet ID:** `1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0`  
+**Autumn spreadsheet ID:** `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA`
 
 ## Shared Drive folder layout
 
@@ -216,5 +216,5 @@ npx -y google-sheet-mcp test
 
 - **Sheets = source of truth** — humans edit in Google Sheets; agents update via MCP
 - **Repo** holds `sheets-registry.json`, column schema, and guides — **not** live rows (no CSV)
-- Match columns in [autumn schema](../assets/autumn/research/competitive-landscape-schema.md) or [lny schema](../assets/lny/research/competitive-landscape-schema.md)
+- Match columns in [lny schema](../assets/lny/research/competitive-landscape-schema.md) or [autumn schema](../assets/autumn/research/competitive-landscape-schema.md)
 - Protect row 1 (headers) in the Sheet

@@ -7,7 +7,7 @@ layout: default
 
 # Principles (P1–P4)
 
-Festival Season Networks is a **coordination library**, not an event owner. These four principles are the shared design constraints any organizer can fork, debate, and apply — for **Autumn** and **Lunar New Year** in Greater Sacramento, or adapted elsewhere.
+Festival Season Networks is a **coordination library**, not an event owner. These four principles are the shared design constraints any organizer can fork, debate, and apply — for **Lunar New Year & Autumn Festivals** in Greater Sacramento, or adapted elsewhere.
 
 | Principle | Question | One-line test |
 |-----------|----------|---------------|
@@ -92,7 +92,7 @@ Festival Season Networks is a **coordination library**, not an event owner. Thes
 - Right-size vendor count, parking, and sanitation to **planning band**, not marketed ceiling
 - Compare across **product format** (free fair vs ticketed night market vs church dinner) — not raw headliner followership
 
-**Assets:** [Autumn](../assets/autumn/research/competitive-landscape-schema.md) and [LNY](../assets/lny/research/competitive-landscape-schema.md) landscape schemas, [right-sizing playbook](../assets/autumn/playbooks/right-sizing.md), case studies tagged `right-sizing` or `honest-scale`.
+**Assets:** [LNY](../assets/lny/research/competitive-landscape-schema.md) and [Autumn](../assets/autumn/research/competitive-landscape-schema.md) landscape schemas, [right-sizing playbook](../assets/autumn/playbooks/right-sizing.md), case studies tagged `right-sizing` or `honest-scale`.
 
 ---
 
@@ -129,7 +129,7 @@ These principles do **not** require a central membership org or enforcement body
 | Forkable assets any organizer can use | A brand mandate ("you must use our flyer") |
 | A place to document **ecosystem harmony** | A replacement for existing coalitions (cPALSs, VACOS, NVCC, chambers, parishes) |
 
-**cPALSs** leads EGLNY; **VACOS** leads MAF — both with NVCC and coalition partners. cPALSs may also contribute case studies — see [cPALSs/festival](https://github.com/cPALSs/festival) for committee production tooling. **Festival Season Networks** stays neutral: the same roll-up logic should work for California Is My Home, SCNCCA, Creative Space, or a new anchor host without adopting cPALSs governance.
+**cPALSs** leads EGLNY; **VACOS** leads MAF — the coalition capstones within **Lunar New Year & Autumn Festivals** — both with NVCC and coalition partners. **Festival Season Networks** stays neutral: the same roll-up logic should work for California Is My Home, SCNCCA, Creative Space, or a new anchor host without adopting cPALSs governance.
 
 Convener role in practice:
 
@@ -157,7 +157,7 @@ Start with [ecosystem harmony](ecosystem-harmony.html) for how research and rela
 
 ## Applying P1–P4 to your season
 
-1. **Inventory** — Add or verify rows in the [Autumn](autumn/market-research.html) or [LNY](lny/market-research.html) competitive landscape sheet.
+1. **Inventory** — Add or verify rows in the [LNY](lny/market-research.html) or [Autumn](autumn/market-research.html) competitive landscape sheet.
 2. **Place** — Assign each event an R-tier (warm-up / bridge / capstone / afterglow); flag collisions.
 3. **Mobilize** — Pick one group-attendance pilot (home base, squad CTA, or partner cross-promo).
 4. **Size** — Set planning attendance from field evidence; mark claims separately.

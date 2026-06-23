@@ -16,16 +16,6 @@
   },
   "spreadsheets": [
     {
-      "id": "autumn-competitive-landscape",
-      "title": "Greater Sacramento Autumn Season - Competitive Landscape",
-      "spreadsheet_id": "1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA",
-      "url": "https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link",
-      "season": "autumn",
-      "schema": "assets/autumn/research/competitive-landscape-schema.md",
-      "tab": "All",
-      "view_tabs": ["2026", "2025"]
-    },
-    {
       "id": "lny-competitive-landscape",
       "title": "Greater Sacramento Lunar New Year Season - Competitive Landscape",
       "spreadsheet_id": "1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0",
@@ -34,6 +24,16 @@
       "schema": "assets/lny/research/competitive-landscape-schema.md",
       "tab": "All",
       "view_tabs": ["2027", "2026"]
+    },
+    {
+      "id": "autumn-competitive-landscape",
+      "title": "Greater Sacramento Autumn Season - Competitive Landscape",
+      "spreadsheet_id": "1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA",
+      "url": "https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link",
+      "season": "autumn",
+      "schema": "assets/autumn/research/competitive-landscape-schema.md",
+      "tab": "All",
+      "view_tabs": ["2026", "2025"]
     }
   ]
 }

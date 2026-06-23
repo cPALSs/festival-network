@@ -28,9 +28,9 @@ Festival Season Networks writes for **community organizers, coalition partners, 
 
 We use **two registers** on purpose. Don't mix them on the same page without translating.
 
-### Public (GitHub Pages, principles, guides)
+### Public (GitHub Pages — humans)
 
-For humans reading [the site](index.html). Plain English only.
+For people browsing [the site](index.html). Plain English only. AI agents should use the cloned repo, not this rendered HTML.
 
 | Instead of… | Write… |
 |-------------|--------|
@@ -57,13 +57,28 @@ Schemas must include a **plain-language gloss** for every enum. When adding a ne
 
 ---
 
+## Naming the seasons
+
+When **both** are mentioned together, use **Lunar New Year & Autumn Festivals**.
+
+| Together | One season only |
+|----------|-----------------|
+| Lunar New Year & Autumn Festivals | **Lunar New Year** / **LNY season** / **EGLNY** (capstone) |
+| | **Autumn** / **Mid-Autumn** / **MAF** (capstone) |
+
+Do not say "autumn and Lunar New Year" or "Autumn and LNY" in public copy — use the paired name above, or name the single season you're discussing.
+
+When listing both seasons (tables, navigation, links), always put **Lunar New Year** before **Autumn**.
+
+---
+
 ## Sensitive topics
 
 **Attendance.** Never state a number without saying where it came from. Prefer "about 5,000–6,000 (park district estimate)" over "10,000+."
 
 **Competition.** Naming another event is factual, not hostile. "California Is My Home runs a Mid-Autumn fair the same month" — not "competitor threat."
 
-**Coalition events.** MAF and EGLNY are coalition capstones, not the brand of this library. Name the **lead** org first in **Host / Organizer**: **VACOS** leads Mid-Autumn; **cPALSs** leads EGLNY (with VACOS / NVCC as partners). Say "the Elk Grove capstone" when you do not need org names.
+**Coalition events.** EGLNY and MAF are coalition capstones within Lunar New Year & Autumn Festivals — not the brand of this library. Name the **lead** org first in **Host / Organizer**: **VACOS** leads Mid-Autumn; **cPALSs** leads EGLNY (with VACOS / NVCC as partners). Say "the Elk Grove capstone" when you do not need org names.
 
 ---
 

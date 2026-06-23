@@ -2,6 +2,8 @@
 
 Instructions for AI agents working with this repository.
 
+**Clone this repo.** Agents use the git tree (`assets/`, schemas, `AGENTS.md`) — not the rendered GitHub Pages HTML. Humans read [cpalss.github.io/festival-network](https://cpalss.github.io/festival-network/).
+
 ## Phase notice
 
 **Phase 0:** Most files are **stubs** (`status: stub` in frontmatter). Do not treat placeholder content as field research. Prefer explicit `TODO` markers over inference.
@@ -16,21 +18,6 @@ Instructions for AI agents working with this repository.
 | MCP setup | [docs/google-sheets-mcp.md](docs/google-sheets-mcp.md) |
 
 **MCP:** Use the `google-sheets` MCP server (`google-sheet-mcp`) to read and update sheets. If MCP is unavailable, ask the user to run setup in `docs/google-sheets-mcp.md` — do not treat repo CSV as canonical.
-
-### Autumn competitive landscape
-
-Registry ID: `autumn-competitive-landscape` in [assets/sheets-registry.json](assets/sheets-registry.json)
-
-| | |
-|---|---|
-| **Title** | Greater Sacramento Autumn Season - Competitive Landscape |
-| **Spreadsheet ID** | `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA` |
-| **URL** | https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit |
-| **Tab (data)** | `All` |
-| **View tabs** | `2026`, `2025` (newest first) |
-| **Schema** | [assets/autumn/research/competitive-landscape-schema.md](assets/autumn/research/competitive-landscape-schema.md) |
-
-**No local CSV** — this sheet is the only canonical copy of autumn event rows. Read and write via MCP (`sheets_read_range`, `sheets_write_range`, `sheets_append_row`).
 
 ### LNY competitive landscape
 
@@ -47,17 +34,67 @@ Registry ID: `lny-competitive-landscape` in [assets/sheets-registry.json](assets
 
 Seeded from the 2026 **Lunar New Year Season** flyer (12 events Jan 24–Mar 7) plus ecosystem reference rows. **No local CSV.**
 
+### Autumn competitive landscape
+
+Registry ID: `autumn-competitive-landscape` in [assets/sheets-registry.json](assets/sheets-registry.json)
+
+| | |
+|---|---|
+| **Title** | Greater Sacramento Autumn Season - Competitive Landscape |
+| **Spreadsheet ID** | `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA` |
+| **URL** | https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit |
+| **Tab (data)** | `All` |
+| **View tabs** | `2026`, `2025` (newest first) |
+| **Schema** | [assets/autumn/research/competitive-landscape-schema.md](assets/autumn/research/competitive-landscape-schema.md) |
+
+**No local CSV** — this sheet is the only canonical copy of autumn event rows. Read and write via MCP (`sheets_read_range`, `sheets_write_range`, `sheets_append_row`).
+
 ## Load order
 
 1. **Sheets registry** — `assets/sheets-registry.json`
-2. **Research (live)** — MCP read competitive landscape sheet (autumn or lny) → schema doc for column meanings
-3. **Ecosystem graph** — `assets/autumn/graphs/ecosystem-graph.json` or `assets/lny/graphs/ecosystem-graph.json` + schema (until graph moves to Sheets)
+2. **Research (live)** — MCP read competitive landscape sheet (lny or autumn) → schema doc for column meanings
+3. **Ecosystem graph** — `assets/lny/graphs/ecosystem-graph.json` or `assets/autumn/graphs/ecosystem-graph.json` + schema (until graph moves to Sheets)
 4. **Calendar** — `assets/autumn/calendars/rules/calendar-rules.json` + `schema.md` + `2027-season-path-grid.md`
 5. **Case studies** — `assets/case-studies/*.md`
 6. **Playbooks & kits** — `assets/autumn/playbooks/`, `assets/autumn/group-activities/`, `assets/shared/group-activities/`
 7. **Simulations** — `assets/autumn/simulations/PLANNING.md`, `scenarios/`, `plans/`
 
-Human guides: `docs/` (GitHub Pages source).
+Human guides: `docs/` (published as GitHub Pages for people; agents may read the same markdown from the clone).
+
+## File catalog
+
+Paths below are for agents after `git clone` — not surfaced on GitHub Pages.
+
+### LNY
+
+| Asset | Path |
+|-------|------|
+| Landscape schema | `assets/lny/research/competitive-landscape-schema.md` |
+| Season report | `assets/lny/research/greater-sac-lny-season-report.md` |
+| Ecosystem graph | `assets/lny/graphs/ecosystem-graph.json` |
+| Playbooks / kits | `assets/lny/playbooks/`, `assets/lny/group-activities/` |
+
+### Autumn
+
+| Asset | Path |
+|-------|------|
+| Landscape schema | `assets/autumn/research/competitive-landscape-schema.md` |
+| Season report | `assets/autumn/research/greater-sac-autumn-season-report.md` |
+| Ecosystem graph | `assets/autumn/graphs/ecosystem-graph.json` |
+| Graph schema | `assets/autumn/graphs/ecosystem-graph.schema.json` |
+| Calendar rules | `assets/autumn/calendars/rules/calendar-rules.json` |
+| 2027 season path | `assets/autumn/calendars/2027-season-path-grid.md` |
+| Roll-up arcs | `assets/autumn/calendars/rollup-arcs.md` |
+| Playbooks | `assets/autumn/playbooks/` |
+| Group kits | `assets/autumn/group-activities/` |
+| Simulations | `assets/autumn/simulations/PLANNING.md` |
+
+### Cross-season
+
+| Asset | Path |
+|-------|------|
+| Case studies | `assets/case-studies/` |
+| Shared kits | `assets/shared/group-activities/` |
 
 ## Principles (constraints)
 
@@ -68,6 +105,7 @@ Human guides: `docs/` (GitHub Pages source).
 
 ## Stable ID conventions
 
+- **Season naming:** Together → **Lunar New Year & Autumn Festivals** (LNY always before Autumn when listing both); alone → LNY / EGLNY or Autumn / Mid-Autumn / MAF ([tone of voice](docs/tone-of-voice.md))
 - **Events:** `event_id` slug on every landscape row — e.g. `cpalss-maf`, `cpalss-lny-capstone`, `caaps-lantern`
 - **Occurrences:** one row per `event_id` + `Season year`; use `Row status` (`planning`, `held`, `historical`, …)
 - **Lanes:** `L1`–`L7`

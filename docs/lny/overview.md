@@ -8,15 +8,11 @@ season: lny
 
 Neutral coordination assets for the **Greater Sacramento LNY season** (January–March), centered on the cPALSs/VACOS/NVCC capstone weekend.
 
-## Source of truth
+## Live research
 
-| Asset | Link |
-|-------|------|
-| **Competitive landscape (live)** | [Google Sheet](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit) |
-| **Schema** | [competitive-landscape-schema.md](../../assets/lny/research/competitive-landscape-schema.md) |
-| **Season report** | [greater-sac-lny-season-report.md](../../assets/lny/research/greater-sac-lny-season-report.md) |
+**Competitive landscape:** [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit) — edit **All**; browse **2027** / **2026**
 
-Registry ID: `lny-competitive-landscape` in [sheets-registry.json](../../assets/sheets-registry.json).
+Guides: [LNY market research](market-research.html) · [Using market research](../research.html)
 
 ## Season flyer note
 
@@ -24,5 +20,5 @@ The 2026 **Lunar New Year Season** calendar one-pager (12 events, capstone Feb 1
 
 ## Shared kits
 
-See `assets/shared/` and `assets/lny/group-activities/` (stubs).
+Group-activity kits and playbooks are in the repo for organizers who clone or fork — see [Getting started](../getting-started.html). (Stubs in Phase 0.)
 

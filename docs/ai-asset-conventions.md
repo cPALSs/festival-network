@@ -4,7 +4,9 @@ asset_type: conventions
 season: cross
 ---
 
-# AI-Readable Conventions
+# AI-readable conventions
+
+**AI-readable** means an agent can `git clone` this repository and work from structured files — `AGENTS.md`, `assets/sheets-registry.json`, schemas, JSON graphs, markdown kits — without scraping GitHub Pages. **Human-friendly** copy lives in `docs/` and is published at [cpalss.github.io/festival-network](https://cpalss.github.io/festival-network/).
 
 ## Source of truth
 
@@ -26,7 +28,7 @@ Add a new spreadsheet to [assets/sheets-registry.json](../assets/sheets-registry
   "title": "Human title",
   "spreadsheet_id": "from URL",
   "url": "https://docs.google.com/spreadsheets/d/.../edit",
-  "season": "autumn | lny | cross",
+  "season": "lny | autumn | cross",
   "schema": "path/to/schema.md",
   "tab": "Tab name or null"
 }
@@ -50,7 +52,7 @@ Markdown assets use:
 status: stub | draft | review | published
 title: ...
 asset_type: schema | playbook | case-study | guide
-season: autumn | lny | cross
+season: lny | autumn | cross
 ---
 ```
 
@@ -68,4 +70,4 @@ YAML scenarios in `assets/autumn/simulations/scenarios/` reference `event_id` va
 
 ## Tone and wording
 
-Public pages use plain language. Sheet columns may use short enum labels (`Direct comp - same city`). Every enum needs a gloss in the schema and in [tone of voice](tone-of-voice.md).
+Public pages use plain language. When both seasons appear together, say **Lunar New Year & Autumn Festivals** ([tone of voice](tone-of-voice.md)). Sheet columns may use short enum labels (`Direct comp - same city`). Every enum needs a gloss in the schema and in [tone of voice](tone-of-voice.md).

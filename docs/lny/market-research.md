@@ -10,17 +10,16 @@ season: lny
 
 **Source of truth:** [Greater Sacramento Lunar New Year Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit) — edit **All**; browse **2027** / **2026**
 
-| Resource | Path |
-|----------|------|
-| Sheet registry | [sheets-registry.json](../../assets/sheets-registry.json) → `lny-competitive-landscape` |
-| Column schema | [competitive-landscape-schema.md](../../assets/lny/research/competitive-landscape-schema.md) |
-
 Seeded from the 2026 **Lunar New Year Season** flyer (12 events Jan 24–Mar 7) plus ecosystem reference rows.
 
-## Season report
+## How to use the sheet
 
-Narrative analysis (repo): [greater-sac-lny-season-report.md](../../assets/lny/research/greater-sac-lny-season-report.md)
+- **All** — canonical rows (one row per event per season year)
+- **2027** / **2026** — filtered views sorted by date
+- Use **Attendance source** and **Data gap** honestly; do not invent numbers
 
-## Contributing
+See [Using market research](../research.html) for methodology and contributing.
 
-Edit the **Google Sheet** directly or propose rows via PR. Match columns in the schema doc. See [research guide](../research.html).
+## Planning with AI
+
+Agents: clone the repo and follow [AGENTS.md](../../AGENTS.md) for column schema, sheet IDs, and MCP load order.

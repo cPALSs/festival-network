@@ -1,0 +1,16 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-footer-links {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+.site-footer-sep {
+  margin: 0 0.35rem;
+  font-weight: normal;
+  color: $blockquote-text-color;
+}

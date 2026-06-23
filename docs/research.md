@@ -8,20 +8,34 @@ season: cross
 
 ## Why shared research
 
-Greater Sacramento runs twenty-plus autumn programs. Coalition planners should not each reinvent the comp set. One honest landscape — shared, forkable, peer-reviewable — reduces chaos and honesty gaps.
+Greater Sacramento runs twenty-plus autumn programs and a dozen-plus LNY season events. Coalition planners should not each reinvent the comp set. One honest landscape per season — shared, forkable, peer-reviewable — reduces chaos and honesty gaps.
 
-## Live data: Google Sheets
+## Autumn — live data
 
 **Source of truth:** [Greater Sacramento Autumn Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link)
 
 | Resource | Path |
 |----------|------|
-| Sheet registry | [sheets-registry.json](../assets/sheets-registry.json) |
+| Sheet registry | [sheets-registry.json](../assets/sheets-registry.json) → `autumn-competitive-landscape` |
 | Column schema | [competitive-landscape-schema.md](../assets/autumn/research/competitive-landscape-schema.md) |
 | Narrative report | [greater-sac-autumn-season-report.md](../assets/autumn/research/greater-sac-autumn-season-report.md) |
-| MCP setup | [google-sheets-mcp.md](google-sheets-mcp.md) |
 
-Humans edit in Google Sheets. AI agents read/update via MCP. The repo does not hold live rows.
+## LNY — live data
+
+**Source of truth:** [Greater Sacramento Lunar New Year Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link)
+
+| Resource | Path |
+|----------|------|
+| Sheet registry | [sheets-registry.json](../assets/sheets-registry.json) → `lny-competitive-landscape` |
+| Column schema | [competitive-landscape-schema.md](../assets/lny/research/competitive-landscape-schema.md) |
+| Narrative report | [greater-sac-lny-season-report.md](../assets/lny/research/greater-sac-lny-season-report.md) |
+| Season overview | [lny/overview.md](lny/overview.md) |
+
+Seeded from the 2026 **Lunar New Year Season** flyer (12 events Jan 24–Mar 7).
+
+## MCP setup
+
+[google-sheets-mcp.md](google-sheets-mcp.md) — pass `spreadsheet` ID per registry entry when reading/writing.
 
 ## Honest scale methodology
 

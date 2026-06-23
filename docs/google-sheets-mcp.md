@@ -14,8 +14,10 @@ Canonical links live in [sheets-registry.json](../assets/sheets-registry.json).
 | Dataset | Spreadsheet |
 |---------|-------------|
 | Autumn competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
+| LNY competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
 
-**Spreadsheet ID:** `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA`
+**Autumn spreadsheet ID:** `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA`  
+**LNY spreadsheet ID:** `1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0`
 
 ## Shared Drive folder layout
 
@@ -73,8 +75,19 @@ OAuth lets the agent act **as you** — no service account, no sharing the sheet
 
 ### 5. Run the OAuth wizard
 
+**cPALSs staging** — run from the parent folder (local tooling, not in the public repo):
+
 ```bash
-cd "Festival Network"
+cd "/Users/bao/cPALSs/Festival Network"
+npm install
+npx -y google-sheet-mcp init --auth oauth
+```
+
+**Public clone** — install MCP in your clone root if you use Sheets MCP locally:
+
+```bash
+cd festival-network
+npm install
 npx -y google-sheet-mcp init --auth oauth
 ```
 
@@ -88,14 +101,12 @@ When prompted:
 
 The wizard opens a browser → sign in → **Allow** access to Google Sheets. Tokens save to `.google-sheet-mcp.json` at the **cPALSs workspace root** (gitignored).
 
-### 6. Install MCP server package (repo)
+### 6. Install MCP server package (local)
 
-```bash
-cd "Festival Network"
-npm install
-```
+**cPALSs staging:** `npm install` in `Festival Network/` (parent of `shared/`).  
+The public repo does not ship `package.json`; MCP is optional local tooling.
 
-This installs `google-sheet-mcp` locally so Cursor can run the **server** entrypoint (not the CLI).
+This installs `google-sheet-mcp` so Cursor can run the **server** entrypoint (not the CLI).
 
 ### 7. Test CLI (optional)
 
@@ -187,7 +198,7 @@ Add to `.cursor/mcp.json` `env`:
 ### 5. Test
 
 ```bash
-cd "Festival Network"
+cd "/Users/bao/cPALSs/Festival Network"   # cPALSs staging
 npx -y google-sheet-mcp test
 ```
 
@@ -205,5 +216,5 @@ npx -y google-sheet-mcp test
 
 - **Sheets = source of truth** — humans edit in Google Sheets; agents update via MCP
 - **Repo** holds `sheets-registry.json`, column schema, and guides — **not** live rows (no CSV)
-- Match columns in [competitive-landscape-schema.md](../assets/autumn/research/competitive-landscape-schema.md)
+- Match columns in [autumn schema](../assets/autumn/research/competitive-landscape-schema.md) or [lny schema](../assets/lny/research/competitive-landscape-schema.md)
 - Protect row 1 (headers) in the Sheet

@@ -1,17 +1,22 @@
----
-status: stub
-title: LNY Research
-asset_type: guide
-season: lny
----
+# LNY research
 
-> **Stub** — content planned; see strategy plan.
+## Source of truth
 
-## Phase 4 placeholder
+**Live data:** [Greater Sacramento Lunar New Year Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link)
 
-<!-- TODO -->
+Registry entry: [sheets-registry.json](../../sheets-registry.json) → `lny-competitive-landscape`
 
-## TODO
+There is **no CSV in this repo** — the Google Sheet is canonical.
 
-<!-- TODO -->
+## Files in this folder
 
+| File | Role |
+|------|------|
+| [competitive-landscape-schema.md](competitive-landscape-schema.md) | Column dictionary (contract for the Sheet) |
+| [greater-sac-lny-season-report.md](greater-sac-lny-season-report.md) | Narrative analysis (repo) |
+
+Agents: read and write the **Google Sheet** via MCP. See [docs/google-sheets-mcp.md](../../../docs/google-sheets-mcp.md) and [AGENTS.md](../../../AGENTS.md).
+
+## Related research (cPALSs workspace, not Festival Network SOT)
+
+Deeper narrative and benchmarks live under `Projects - Lunar New Year/Research/` — cite in **Notes** and **Source URL** columns when adding rows; do not duplicate as CSV here.

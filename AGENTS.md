@@ -31,11 +31,25 @@ Registry ID: `autumn-competitive-landscape` in [assets/sheets-registry.json](ass
 
 **No local CSV** — this sheet is the only canonical copy of autumn event rows. Read and write via MCP (`sheets_read_range`, `sheets_write_range`, `sheets_append_row`).
 
+### LNY competitive landscape
+
+Registry ID: `lny-competitive-landscape` in [assets/sheets-registry.json](assets/sheets-registry.json)
+
+| | |
+|---|---|
+| **Title** | Greater Sacramento Lunar New Year Season - Competitive Landscape |
+| **Spreadsheet ID** | `1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0` |
+| **URL** | https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit |
+| **Tab** | `Greater Sacramento Lunar New Year Season - Competitive Landscape` |
+| **Schema** | [assets/lny/research/competitive-landscape-schema.md](assets/lny/research/competitive-landscape-schema.md) |
+
+Seeded from the 2026 **Lunar New Year Season** flyer (12 events Jan 24–Mar 7) plus ecosystem reference rows. **No local CSV.**
+
 ## Load order
 
 1. **Sheets registry** — `assets/sheets-registry.json`
-2. **Research (live)** — MCP read competitive landscape sheet → schema doc for column meanings
-3. **Ecosystem graph** — `assets/autumn/graphs/ecosystem-graph.json` + `ecosystem-graph.schema.json` (until graph moves to Sheets)
+2. **Research (live)** — MCP read competitive landscape sheet (autumn or lny) → schema doc for column meanings
+3. **Ecosystem graph** — `assets/autumn/graphs/ecosystem-graph.json` or `assets/lny/graphs/ecosystem-graph.json` + schema (until graph moves to Sheets)
 4. **Calendar** — `assets/autumn/calendars/rules/calendar-rules.json` + `schema.md` + `2027-season-path-grid.md`
 5. **Case studies** — `assets/case-studies/*.md`
 6. **Playbooks & kits** — `assets/autumn/playbooks/`, `assets/autumn/group-activities/`, `assets/shared/group-activities/`

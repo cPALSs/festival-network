@@ -1,7 +1,7 @@
 ---
 description: Agent instructions when working with Festival Season Networks assets in cPALSs
 globs:
-  - "Festival Network/**"
+  - "Festival Network/shared/**"
 alwaysApply: false
 ---
 

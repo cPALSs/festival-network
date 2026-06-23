@@ -14,7 +14,7 @@ cd festival-network
 
 Public site: [cpalss.github.io/festival-network](https://cpalss.github.io/festival-network/)
 
-Staging home in cPALSs monorepo: `Festival Network/` (this folder is published to the repo above)
+**cPALSs staging:** public repo lives in `Festival Network/shared/`; local MCP tooling and scripts stay in parent `Festival Network/` (not published).
 
 ## Source of truth
 
@@ -24,6 +24,7 @@ Staging home in cPALSs monorepo: `Festival Network/` (this folder is published t
 |------|--------|
 | Sheet registry (links + IDs) | [assets/sheets-registry.json](../assets/sheets-registry.json) |
 | Autumn competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
+| LNY competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
 | MCP setup for Cursor | [google-sheets-mcp.md](google-sheets-mcp.html) |
 | AI entry | [AGENTS.md](../AGENTS.md) |
 
@@ -67,11 +68,14 @@ Shared Drive layout: **`Festival Network / Research`** (not Marketing) for marke
 | Case studies | [case-studies/](../assets/case-studies/) |
 | Shared kits | [shared/group-activities/](../assets/shared/group-activities/) |
 
-### LNY (stub)
+### LNY
 
-| Asset | File |
-|-------|------|
-| Overview | [lny/overview.html](lny/overview.html) |
+| Asset | Location |
+|-------|----------|
+| **Competitive landscape (live)** | [Google Sheet](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
+| Landscape schema | [competitive-landscape-schema.md](../assets/lny/research/competitive-landscape-schema.md) |
+| Season report | [greater-sac-lny-season-report.md](../assets/lny/research/greater-sac-lny-season-report.md) |
+| Overview | [lny/overview.md](lny/overview.md) |
 | Assets | [assets/lny/](../assets/lny/) |
 
 ## Next steps

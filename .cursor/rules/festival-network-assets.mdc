@@ -13,7 +13,7 @@ Mirror of public repo `AGENTS.md`. Read [AGENTS.md](../../AGENTS.md) first.
 
 **Google Sheets** for live tabular research. Registry: [assets/sheets-registry.json](../../assets/sheets-registry.json).
 
-Use **google-sheets** MCP to read/update. **No local CSV** — live event rows live only in Google Sheets (LNY and autumn competitive landscapes).
+Use **google-sheets** MCP to read/update. **No local CSV** — live event rows live only in Google Sheets (LNY and autumn market landscapes).
 
 ## Load order
 
@@ -25,7 +25,7 @@ Use **google-sheets** MCP to read/update. **No local CSV** — live event rows l
 
 ## Phase 0
 
-Most markdown assets have `status: stub`. The competitive landscape **Sheet** has live rows.
+Most markdown assets have `status: stub`. The market landscape **Sheet** has live rows.
 
 ## Principles
 

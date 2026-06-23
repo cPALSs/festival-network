@@ -6,9 +6,9 @@ season: lny
 
 # Lunar New Year — market research
 
-## Competitive landscape (live)
+## Market landscape (live)
 
-**Source of truth:** [Greater Sacramento Lunar New Year Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit) — edit **All**; browse **2027** / **2026**
+**Source of truth:** [Greater Sacramento Lunar New Year Season - Market Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit) — edit **All**; browse **2027** / **2026**
 
 Seeded from the 2026 **Lunar New Year Season** flyer (12 events Jan 24–Mar 7) plus ecosystem reference rows.
 

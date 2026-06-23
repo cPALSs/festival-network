@@ -46,7 +46,7 @@ Open-source assets for **Lunar New Year & Autumn Festivals** — calendars, rese
 
 Tabular event data lives in **Google Sheets** (not in the repo). Guides and narrative reports are on this site.
 
-| Season | Competitive landscape |
+| Season | Market landscape |
 |--------|------------------------|
 | **Lunar New Year** | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) — [market research guide](lny/market-research.html) |
 | **Autumn** | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) — [market research guide](autumn/market-research.html) |

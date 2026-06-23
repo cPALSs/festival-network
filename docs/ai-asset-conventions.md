@@ -12,7 +12,7 @@ season: cross
 
 | Data type | Canonical store | Repo holds |
 |-----------|-----------------|------------|
-| Tabular research (competitive landscape, etc.) | **Google Sheets** | [sheets-registry.json](../assets/sheets-registry.json), column schema |
+| Tabular research (market landscape, etc.) | **Google Sheets** | [sheets-registry.json](../assets/sheets-registry.json), column schema |
 | Graphs, calendars, kits (for now) | Repo JSON/Markdown | `assets/` |
 | Private organizer notes | Staging folder | `assets/autumn/staging/` (not all published) |
 
@@ -58,7 +58,7 @@ season: lny | autumn | cross
 
 ## Column dictionaries
 
-Each canonical sheet has a schema doc (e.g. [competitive-landscape-schema.md](../assets/autumn/research/competitive-landscape-schema.md)). Sheet row 1 must match schema headers exactly.
+Each canonical sheet has a schema doc (e.g. [market-landscape-schema.md](../assets/autumn/research/market-landscape-schema.md)). Sheet row 1 must match schema headers exactly.
 
 ## Rules as data
 

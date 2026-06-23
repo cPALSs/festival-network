@@ -7,31 +7,31 @@
   "drive": {
     "shared_drive": "Festival Network",
     "recommended_folders": {
-      "Research": "Market research, competitive landscape, analyses",
+      "Research": "Market research, market landscape, analyses",
       "Calendars": "Roll-up paths, anchor registry, scheduling (future)",
       "Graphs": "Ecosystem relationship data (future)",
       "Operations": "Steering trackers, debriefs (future)"
     },
-    "note": "Competitive landscape lives in Research, not Marketing — Marketing is for outbound campaigns."
+    "note": "Market landscape lives in Research, not Marketing — Marketing is for outbound campaigns."
   },
   "spreadsheets": [
     {
-      "id": "lny-competitive-landscape",
-      "title": "Greater Sacramento Lunar New Year Season - Competitive Landscape",
+      "id": "lny-market-landscape",
+      "title": "Greater Sacramento Lunar New Year Season - Market Landscape",
       "spreadsheet_id": "1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0",
       "url": "https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link",
       "season": "lny",
-      "schema": "assets/lny/research/competitive-landscape-schema.md",
+      "schema": "assets/lny/research/market-landscape-schema.md",
       "tab": "All",
       "view_tabs": ["2027", "2026"]
     },
     {
-      "id": "autumn-competitive-landscape",
-      "title": "Greater Sacramento Autumn Season - Competitive Landscape",
+      "id": "autumn-market-landscape",
+      "title": "Greater Sacramento Autumn Season - Market Landscape",
       "spreadsheet_id": "1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA",
       "url": "https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link",
       "season": "autumn",
-      "schema": "assets/autumn/research/competitive-landscape-schema.md",
+      "schema": "assets/autumn/research/market-landscape-schema.md",
       "tab": "All",
       "view_tabs": ["2026", "2025"]
     }

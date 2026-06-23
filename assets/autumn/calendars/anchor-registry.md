@@ -13,6 +13,6 @@ title: Anchor Registry
 
 ## Registry fields
 
-See competitive landscape sheet (via [sheets-registry.json](../../sheets-registry.json)) + scheduling columns in competitive-landscape-schema.md.
+See market landscape sheet (via [sheets-registry.json](../../sheets-registry.json)) + scheduling columns in market-landscape-schema.md.
 
 <!-- TODO: event mapping from rollup-arcs.md -->

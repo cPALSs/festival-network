@@ -17,20 +17,20 @@ Point your agent at [AGENTS.md](../AGENTS.md). Load [sheets-registry.json](../as
 ## Load order
 
 1. `assets/sheets-registry.json`
-2. MCP → read competitive landscape sheet
-3. `competitive-landscape-schema.md` for column meanings
+2. MCP → read market landscape sheet
+3. `market-landscape-schema.md` for column meanings
 4. Graph → calendar → case studies → playbooks
 
 ## Example prompts
 
 ```
-List tabs in the LNY competitive landscape spreadsheet.
+List tabs in the LNY market landscape spreadsheet.
 
-Read all rows from the competitive landscape sheet. Summarize capstone overlap for EGLNY 2027.
+Read all rows from the market landscape sheet. Summarize capstone overlap for EGLNY 2027.
 
-List tabs in the autumn competitive landscape spreadsheet.
+List tabs in the autumn market landscape spreadsheet.
 
-Read all rows from the competitive landscape sheet. Summarize MAF overlap categories.
+Read all rows from the market landscape sheet. Summarize MAF overlap categories.
 
 Add a row for [event]: field read attendance ~X, source = field estimate, data gap = [gap].
 

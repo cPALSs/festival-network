@@ -7,7 +7,7 @@ season: autumn
 
 > **Stub** — content planned; see strategy plan.
 
-## Competitive landscape
+## Market landscape
 
 <!-- TODO -->
 

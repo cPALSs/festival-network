@@ -19,40 +19,40 @@ Instructions for AI agents working with this repository.
 
 **MCP:** Use the `google-sheets` MCP server (`google-sheet-mcp`) to read and update sheets. If MCP is unavailable, ask the user to run setup in `docs/google-sheets-mcp.md` — do not treat repo CSV as canonical.
 
-### LNY competitive landscape
+### LNY market landscape
 
-Registry ID: `lny-competitive-landscape` in [assets/sheets-registry.json](assets/sheets-registry.json)
+Registry ID: `lny-market-landscape` in [assets/sheets-registry.json](assets/sheets-registry.json)
 
 | | |
 |---|---|
-| **Title** | Greater Sacramento Lunar New Year Season - Competitive Landscape |
+| **Title** | Greater Sacramento Lunar New Year Season - Market Landscape |
 | **Spreadsheet ID** | `1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0` |
 | **URL** | https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit |
 | **Tab (data)** | `All` |
 | **View tabs** | `2027`, `2026` (newest first) |
-| **Schema** | [assets/lny/research/competitive-landscape-schema.md](assets/lny/research/competitive-landscape-schema.md) |
+| **Schema** | [assets/lny/research/market-landscape-schema.md](assets/lny/research/market-landscape-schema.md) |
 
 Seeded from the 2026 **Lunar New Year Season** flyer (12 events Jan 24–Mar 7) plus ecosystem reference rows. **No local CSV.**
 
-### Autumn competitive landscape
+### Autumn market landscape
 
-Registry ID: `autumn-competitive-landscape` in [assets/sheets-registry.json](assets/sheets-registry.json)
+Registry ID: `autumn-market-landscape` in [assets/sheets-registry.json](assets/sheets-registry.json)
 
 | | |
 |---|---|
-| **Title** | Greater Sacramento Autumn Season - Competitive Landscape |
+| **Title** | Greater Sacramento Autumn Season - Market Landscape |
 | **Spreadsheet ID** | `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA` |
 | **URL** | https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit |
 | **Tab (data)** | `All` |
 | **View tabs** | `2026`, `2025` (newest first) |
-| **Schema** | [assets/autumn/research/competitive-landscape-schema.md](assets/autumn/research/competitive-landscape-schema.md) |
+| **Schema** | [assets/autumn/research/market-landscape-schema.md](assets/autumn/research/market-landscape-schema.md) |
 
 **No local CSV** — this sheet is the only canonical copy of autumn event rows. Read and write via MCP (`sheets_read_range`, `sheets_write_range`, `sheets_append_row`).
 
 ## Load order
 
 1. **Sheets registry** — `assets/sheets-registry.json`
-2. **Research (live)** — MCP read competitive landscape sheet (lny or autumn) → schema doc for column meanings
+2. **Research (live)** — MCP read market landscape sheet (lny or autumn) → schema doc for column meanings
 3. **Ecosystem graph** — `assets/lny/graphs/ecosystem-graph.json` or `assets/autumn/graphs/ecosystem-graph.json` + schema (until graph moves to Sheets)
 4. **Calendar** — `assets/autumn/calendars/rules/calendar-rules.json` + `schema.md` + `2027-season-path-grid.md`
 5. **Case studies** — `assets/case-studies/*.md`
@@ -69,7 +69,7 @@ Paths below are for agents after `git clone` — not surfaced on GitHub Pages.
 
 | Asset | Path |
 |-------|------|
-| Landscape schema | `assets/lny/research/competitive-landscape-schema.md` |
+| Landscape schema | `assets/lny/research/market-landscape-schema.md` |
 | Season report | `assets/lny/research/greater-sac-lny-season-report.md` |
 | Ecosystem graph | `assets/lny/graphs/ecosystem-graph.json` |
 | Playbooks / kits | `assets/lny/playbooks/`, `assets/lny/group-activities/` |
@@ -78,7 +78,7 @@ Paths below are for agents after `git clone` — not surfaced on GitHub Pages.
 
 | Asset | Path |
 |-------|------|
-| Landscape schema | `assets/autumn/research/competitive-landscape-schema.md` |
+| Landscape schema | `assets/autumn/research/market-landscape-schema.md` |
 | Season report | `assets/autumn/research/greater-sac-autumn-season-report.md` |
 | Ecosystem graph | `assets/autumn/graphs/ecosystem-graph.json` |
 | Graph schema | `assets/autumn/graphs/ecosystem-graph.schema.json` |

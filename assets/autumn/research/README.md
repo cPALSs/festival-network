@@ -2,9 +2,9 @@
 
 ## Source of truth
 
-**Live data:** [Greater Sacramento Autumn Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) — tabs **2026** · **2025** · **All**
+**Live data:** [Greater Sacramento Autumn Season - Market Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) — tabs **2026** · **2025** · **All**
 
-Registry entry: [sheets-registry.json](../../sheets-registry.json) → `autumn-competitive-landscape`
+Registry entry: [sheets-registry.json](../../sheets-registry.json) → `autumn-market-landscape`
 
 There is **no CSV in this repo** — the Google Sheet is canonical.
 
@@ -12,7 +12,7 @@ There is **no CSV in this repo** — the Google Sheet is canonical.
 
 | File | Role |
 |------|------|
-| [competitive-landscape-schema.md](competitive-landscape-schema.md) | Column dictionary (contract for the Sheet) |
+| [market-landscape-schema.md](market-landscape-schema.md) | Column dictionary (contract for the Sheet) |
 | [greater-sac-autumn-season-report.md](greater-sac-autumn-season-report.md) | Narrative analysis (repo) |
 | [CONTRIBUTING-RESEARCH.md](CONTRIBUTING-RESEARCH.md) | How to contribute |
 

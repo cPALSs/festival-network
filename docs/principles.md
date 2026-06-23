@@ -34,12 +34,12 @@ Festival Season Networks is a **coordination library**, not an event owner. Thes
 **Roll-up mistakes to avoid:**
 
 - Two **capstones** in the same lane and same metro window (e.g. two "main" Tết fairs the same weekend)
-- Scheduling a **direct competitor** on capstone Saturday without talking to the network first (see [LNY competitive landscape](lny/market-research.html))
+- Scheduling a **direct competitor** on capstone Saturday without talking to the network first (see [LNY market landscape](lny/market-research.html))
 - Treating warm-up events as substitutes for the capstone — they **feed** the capstone, not replace it
 
-**Assets:** competitive landscape sheets (who's in the season), [calendar rules](../assets/autumn/calendars/rules/calendar-rules.json), [roll-up arcs](../assets/autumn/calendars/rollup-arcs.md) (Autumn), season reports.
+**Assets:** market landscape sheets (who's in the season), [calendar rules](../assets/autumn/calendars/rules/calendar-rules.json), [roll-up arcs](../assets/autumn/calendars/rollup-arcs.md) (Autumn), season reports.
 
-**Greater Sacramento note:** The 2026 **Lunar New Year Season** one-pager listed 12 dated events Jan 24–Mar 7 with the Elk Grove capstone centered — a roll-up calendar in flyer form. Those rows now live in the [LNY competitive landscape Sheet](lny/market-research.html).
+**Greater Sacramento note:** The 2026 **Lunar New Year Season** one-pager listed 12 dated events Jan 24–Mar 7 with the Elk Grove capstone centered — a roll-up calendar in flyer form. Those rows now live in the [LNY market landscape Sheet](lny/market-research.html).
 
 ---
 
@@ -84,15 +84,15 @@ Festival Season Networks is a **coordination library**, not an event owner. Thes
 | **Internal planning** | Finance and vendor caps (e.g. MAF 2026: 2,000 / 2,500 stretch) |
 | **Organizer / press claim** | Marked honestly; not copied into planning without verification |
 
-**Honesty rule:** If attendance is unknown, log it in **Data gap** on the competitive landscape sheet — do not invent a number to fill silence.
+**Honesty rule:** If attendance is unknown, log it in **Data gap** on the market landscape sheet — do not invent a number to fill silence.
 
 **Practices:**
 
-- Competitive landscape **Attendance source** column on every non-empty attendance cell
+- Market landscape **Attendance source** column on every non-empty attendance cell
 - Right-size vendor count, parking, and sanitation to **planning band**, not marketed ceiling
 - Compare across **product format** (free fair vs ticketed night market vs church dinner) — not raw headliner followership
 
-**Assets:** [LNY](../assets/lny/research/competitive-landscape-schema.md) and [Autumn](../assets/autumn/research/competitive-landscape-schema.md) landscape schemas, [right-sizing playbook](../assets/autumn/playbooks/right-sizing.md), case studies tagged `right-sizing` or `honest-scale`.
+**Assets:** [LNY](../assets/lny/research/market-landscape-schema.md) and [Autumn](../assets/autumn/research/market-landscape-schema.md) landscape schemas, [right-sizing playbook](../assets/autumn/playbooks/right-sizing.md), case studies tagged `right-sizing` or `honest-scale`.
 
 ---
 
@@ -133,7 +133,7 @@ These principles do **not** require a central membership org or enforcement body
 
 Convener role in practice:
 
-1. **Publish** honest competitive landscape (Sheets + schema)
+1. **Publish** honest market landscape (Sheets + schema)
 2. **Propose** open calendar slots and roll-up paths
 3. **Offer** kits any network member can adopt
 4. **Never** block independent events — coordinate by value, not authority
@@ -143,7 +143,7 @@ Convener role in practice:
 ## How principles connect
 
 ```text
-Competitive landscape (Sheet)  →  who is in the season (P1, P3)
+Market landscape (Sheet)  →  who is in the season (P1, P3)
 Roll-up calendar / arcs        →  when each event sits (P1)
 Ecosystem graph                →  relationships between hosts (P1, P4)
 Group activity kits            →  on-site product for crews (P2)
@@ -157,7 +157,7 @@ Start with [ecosystem harmony](ecosystem-harmony.html) for how research and rela
 
 ## Applying P1–P4 to your season
 
-1. **Inventory** — Add or verify rows in the [LNY](lny/market-research.html) or [Autumn](autumn/market-research.html) competitive landscape sheet.
+1. **Inventory** — Add or verify rows in the [LNY](lny/market-research.html) or [Autumn](autumn/market-research.html) market landscape sheet.
 2. **Place** — Assign each event an R-tier (warm-up / bridge / capstone / afterglow); flag collisions.
 3. **Mobilize** — Pick one group-attendance pilot (home base, squad CTA, or partner cross-promo).
 4. **Size** — Set planning attendance from field evidence; mark claims separately.

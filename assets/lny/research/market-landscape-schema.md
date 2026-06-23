@@ -1,12 +1,12 @@
 ---
-title: Competitive Landscape Schema
+title: Market Landscape Schema
 asset_type: schema
 season: lny
 ---
 
-# Competitive Landscape Schema — Lunar New Year Season
+# Market Landscape Schema — Lunar New Year Season
 
-**Live sheet:** [Greater Sacramento Lunar New Year Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link)
+**Live sheet:** [Greater Sacramento Lunar New Year Season - Market Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link)
 
 Row 1 in the Sheet must match these headers exactly.
 
@@ -77,7 +77,7 @@ Year tabs are `FILTER` formulas; they refresh when **All** changes. Do not edit 
 
 ## Occurrence rows (one row per year)
 
-Same rules as [Autumn schema](../autumn/research/competitive-landscape-schema.md#occurrence-rows-one-row-per-year). **No 2027 rows until dates are known** — the **2027** tab is empty until then.
+Same rules as [Autumn schema](../autumn/research/market-landscape-schema.md#occurrence-rows-one-row-per-year). **No 2027 rows until dates are known** — the **2027** tab is empty until then.
 
 **Colleague shortcuts (June 2026):**
 

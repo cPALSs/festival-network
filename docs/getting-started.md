@@ -18,8 +18,8 @@ layout: default
 
 | Season | Sheet |
 |--------|-------|
-| Lunar New Year | [Greater Sacramento LNY Season — Competitive Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
-| Autumn | [Greater Sacramento Autumn Season — Competitive Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
+| Lunar New Year | [Greater Sacramento LNY Season — Market Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
+| Autumn | [Greater Sacramento Autumn Season — Market Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
 
 How to read and contribute: [Using market research](research.html). Season overviews: [LNY](lny/overview.html), [Autumn](autumn/overview.html).
 

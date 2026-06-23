@@ -1,12 +1,12 @@
 ---
-title: Competitive Landscape Schema
+title: Market Landscape Schema
 asset_type: schema
 season: autumn
 ---
 
-# Competitive Landscape Schema
+# Market Landscape Schema
 
-**Live sheet:** [Greater Sacramento Autumn Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link)
+**Live sheet:** [Greater Sacramento Autumn Season - Market Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link)
 
 Row 1 in the Sheet must match these headers exactly.
 

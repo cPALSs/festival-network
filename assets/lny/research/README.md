@@ -2,9 +2,9 @@
 
 ## Source of truth
 
-**Live data:** [Greater Sacramento Lunar New Year Season - Competitive Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) — tabs **2027** · **2026** · **All**
+**Live data:** [Greater Sacramento Lunar New Year Season - Market Landscape](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) — tabs **2027** · **2026** · **All**
 
-Registry entry: [sheets-registry.json](../../sheets-registry.json) → `lny-competitive-landscape`
+Registry entry: [sheets-registry.json](../../sheets-registry.json) → `lny-market-landscape`
 
 There is **no CSV in this repo** — the Google Sheet is canonical.
 
@@ -12,7 +12,7 @@ There is **no CSV in this repo** — the Google Sheet is canonical.
 
 | File | Role |
 |------|------|
-| [competitive-landscape-schema.md](competitive-landscape-schema.md) | Column dictionary (contract for the Sheet) |
+| [market-landscape-schema.md](market-landscape-schema.md) | Column dictionary (contract for the Sheet) |
 | [greater-sac-lny-season-report.md](greater-sac-lny-season-report.md) | Narrative analysis (repo) |
 
 Agents: read and write the **Google Sheet** via MCP. See [docs/google-sheets-mcp.md](../../../docs/google-sheets-mcp.md) and [AGENTS.md](../../../AGENTS.md).

@@ -10,13 +10,13 @@ Neutral coordination assets for the **Greater Sacramento LNY season** (January�
 
 ## Live research
 
-**Competitive landscape:** [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit) — edit **All**; browse **2027** / **2026**
+**Market landscape:** [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit) — edit **All**; browse **2027** / **2026**
 
 Guides: [LNY market research](market-research.html) · [Using market research](../research.html)
 
 ## Season flyer note
 
-The 2026 **Lunar New Year Season** calendar one-pager (12 events, capstone Feb 14–15) was not preserved as a design source file in repo. Event rows from that flyer are seeded in the competitive landscape Sheet.
+The 2026 **Lunar New Year Season** calendar one-pager (12 events, capstone Feb 14–15) was not preserved as a design source file in repo. Event rows from that flyer are seeded in the market landscape Sheet.
 
 ## Shared kits
 

@@ -13,8 +13,8 @@ Canonical links live in [sheets-registry.json](../assets/sheets-registry.json).
 
 | Dataset | Spreadsheet |
 |---------|-------------|
-| LNY competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
-| Autumn competitive landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
+| LNY market landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit?usp=drive_link) |
+| Autumn market landscape | [Open in Google Sheets](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit?usp=drive_link) |
 
 **LNY spreadsheet ID:** `1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0`  
 **Autumn spreadsheet ID:** `1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA`
@@ -25,17 +25,17 @@ Recommended structure under your **Festival Network** Shared Drive:
 
 ```
 Festival Network/
-  Research/       ← competitive landscape, market analyses (use this, not Marketing)
+  Research/       ← market landscape, market analyses (use this, not Marketing)
   Calendars/      ← future: roll-up paths, scheduling
   Graphs/         ← future: ecosystem edges
   Operations/     ← future: steering trackers
 ```
 
-Move the competitive landscape spreadsheet from **Marketing** to **Research** — that sheet is coalition market research, not outbound marketing collateral.
+Move the market landscape spreadsheet from **Marketing** to **Research** — that sheet is coalition market research, not outbound marketing collateral.
 
 ## One-time setup (OAuth — recommended)
 
-OAuth lets the agent act **as you** — no service account, no sharing the sheet with a robot email. Good when you own the Shared Drive and the competitive landscape sheet.
+OAuth lets the agent act **as you** — no service account, no sharing the sheet with a robot email. Good when you own the Shared Drive and the market landscape sheet.
 
 ### 1. Create a Google Cloud project
 
@@ -216,5 +216,5 @@ npx -y google-sheet-mcp test
 
 - **Sheets = source of truth** — humans edit in Google Sheets; agents update via MCP
 - **Repo** holds `sheets-registry.json`, column schema, and guides — **not** live rows (no CSV)
-- Match columns in [lny schema](../assets/lny/research/competitive-landscape-schema.md) or [autumn schema](../assets/autumn/research/competitive-landscape-schema.md)
+- Match columns in [lny schema](../assets/lny/research/market-landscape-schema.md) or [autumn schema](../assets/autumn/research/market-landscape-schema.md)
 - Protect row 1 (headers) in the Sheet

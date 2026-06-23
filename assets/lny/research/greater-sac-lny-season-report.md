@@ -11,7 +11,7 @@ status: draft
 
 **Scope:** Greater Sacramento only. **January–March** window. Attendance figures marked **‡** = organizer/press claim unless CCSD or third-party count confirmed.
 
-**Live rows:** [Competitive landscape Google Sheet](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit)
+**Live rows:** [Market landscape Google Sheet](https://docs.google.com/spreadsheets/d/1IB6beiKHC9R05r2o0imkh8MX_2u-qmhlVxTV3pxibs0/edit)
 
 **Method:** Seeded from 2026 **Lunar New Year Season** flyer (12 dated events Jan 24–Mar 7) + cPALSs research docs. Flyer source file not preserved in repo.
 

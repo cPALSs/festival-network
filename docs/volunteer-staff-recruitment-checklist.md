@@ -69,7 +69,7 @@ Within **48 hours** of first contact:
 After first conversation:
 
 - [ ] **Role target** confirmed — one primary director lane (or explicit co-director plan)
-- [ ] **Scope honest** — unfunded stretch goals explained; plan anyway, hold vision until funding is secured
+- [ ] **Scope honest** — unfunded scopes explained up front; plan anyway, hold vision until funding is secured
 - [ ] **Experience gap** named — co-chairs and prior runbooks back new directors
 - [ ] **Season collision** resolved — other events on same weekends acknowledged
 - [ ] **Declined / Deferred** paths clear — warm close; invite for next season if deferred

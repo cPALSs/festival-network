@@ -46,7 +46,7 @@ Post the same core message everywhere; adapt length to the channel.
 - [ ] **Idealist** (or equivalent) — weekly check for new applications
 - [ ] **Instagram / Facebook** — short caption + link to role detail; comment/DM path for interest
 - [ ] **Referrals** — ask placed directors and coalition partners for names before cold outreach
-- [ ] **Build the Festival / public site** — link to registry or project page when roles are listed there
+- [ ] **Public project page** — link to role listings on your festival website when available
 
 **Do not** publish private contact spreadsheets or internal pipeline workbooks on the public site.
 
@@ -69,7 +69,7 @@ Within **48 hours** of first contact:
 After first conversation:
 
 - [ ] **Role target** confirmed — one primary director lane (or explicit co-director plan)
-- [ ] **Scope honest** — unfunded “Phase 2” roles explained; plan anyway, hold vision until sponsor unlock
+- [ ] **Scope honest** — unfunded stretch goals explained; plan anyway, hold vision until funding is secured
 - [ ] **Experience gap** named — co-chairs and prior runbooks back new directors
 - [ ] **Season collision** resolved — other events on same weekends acknowledged
 - [ ] **Declined / Deferred** paths clear — warm close; invite for next season if deferred
@@ -121,7 +121,6 @@ Track leads in your coalition’s internal intake workbook — not on public cal
 Director roles open across site & ops, program & experience, and outreach & partners. Co-chairs, sponsorship, marketing, and Honor our Elders are filled.
 
 - **Interest:** [midautumn@cpalss.com](mailto:midautumn@cpalss.com?subject=MAF%202026%20Director%20interest) — subject `MAF 2026 — Director interest: [role name]`
-- **Registry / sponsor unlocks:** [Build the Festival — MAF 2026](https://festival.cpalss.com?festival=maf2026)
 - **Season context:** [Autumn market research](autumn/market-research.html)
 
 ### Lunar New Year 2027

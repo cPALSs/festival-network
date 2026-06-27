@@ -77,6 +77,7 @@ What I'd optimize for instead:
 
 - **Sustainability** — financial (honest vendor math, right-sized fairs) and human (bounded roles, no burnout across September → November → February)
 - **Lane coordination** — intentional splits so we're not duplicating the same product on the same weekend, and small events can feed a capstone instead of competing with it
+- **Products that fulfill real individual needs** — families, campus, parish, spectacle seekers, and shoppers each get an honest fit; not one generic "festival" pretending to be everything
 
 The line I keep coming back to: **If your vendors and core team can repeat next year, the season wins — regardless of who owns which weekend.**
 

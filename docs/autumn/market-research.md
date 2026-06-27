@@ -68,6 +68,8 @@ Full competitive landscape, three **moon lanes**, and honesty rules live in the 
 
 Coalition-facing mission + sustainability framing for autumn hosts: *MAF Season — Producer Brief* (coalition internal). Questions: [contact@cpalss.com](mailto:contact@cpalss.com).
 
+**Director recruitment:** [Volunteer staff recruitment checklist](../volunteer-staff-recruitment-checklist.html)
+
 ---
 
 ## Planning with AI

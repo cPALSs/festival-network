@@ -29,6 +29,7 @@ Shared Drive layout: **`Festival Network / Research`** (not Marketing) for marke
 
 - [Principles (P1–P4)](principles.html)
 - [Using market research](research.html)
+- [Volunteer staff recruitment checklist](volunteer-staff-recruitment-checklist.html)
 - Season overviews: [LNY](lny/overview.html), [Autumn](autumn/overview.html)
 
 ## Planning with AI {#planning-with-ai}

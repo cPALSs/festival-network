@@ -25,6 +25,7 @@ Open-source assets for **Lunar New Year & Autumn Festivals** — calendars, rese
 - [Getting started](getting-started.html)
 - [Principles (P1–P4)](principles.html)
 - [Using market research](research.html)
+- [Volunteer staff recruitment checklist](volunteer-staff-recruitment-checklist.html)
 
 **Planning with AI?** See [Getting started → Planning with AI](getting-started.html#planning-with-ai) or clone the repo and open [AGENTS.md](https://github.com/cPALSs/festival-network/blob/main/AGENTS.md).
 
@@ -41,6 +42,10 @@ Open-source assets for **Lunar New Year & Autumn Festivals** — calendars, rese
 - [Market research](autumn/market-research.html)
 - [Calendar & registry](autumn/calendar.html)
 - [Group activity kits](autumn/group-activities.html)
+
+### Recruitment (cross-season)
+
+- [Volunteer staff recruitment checklist](volunteer-staff-recruitment-checklist.html) — capstone director intake, triage, and placement
 
 ## Live research
 

@@ -5,9 +5,7 @@ season: cross
 layout: default
 ---
 
-# Principles (P1–P4)
-
-Festival Season Networks is a **coordination library**, not an event owner. These four principles are the shared design constraints any organizer can fork, debate, and apply — for **Lunar New Year & Autumn Festivals** in Greater Sacramento, or adapted elsewhere.
+Festival Season Network is a **coordination library**, not an event owner. These four principles are the shared design constraints any organizer can fork, debate, and apply — for **Lunar New Year & Autumn Festivals** in Greater Sacramento, or adapted elsewhere.
 
 | Principle | Question | One-line test |
 |-----------|----------|---------------|
@@ -129,7 +127,7 @@ These principles do **not** require a central membership org or enforcement body
 | Forkable assets any organizer can use | A brand mandate ("you must use our flyer") |
 | A place to document **ecosystem harmony** | A replacement for existing coalitions (cPALSs, VACOS, NVCC, chambers, parishes) |
 
-**cPALSs** leads EGLNY; **VACOS** leads MAF — the coalition capstones within **Lunar New Year & Autumn Festivals** — both with NVCC and coalition partners. **Festival Season Networks** stays neutral: the same roll-up logic should work for California Is My Home, SCNCCA, Creative Space, or a new anchor host without adopting cPALSs governance.
+**cPALSs** leads EGLNY; **VACOS** leads MAF — the coalition capstones within **Lunar New Year & Autumn Festivals** — both with NVCC and coalition partners. **Festival Season Network** stays neutral: the same roll-up logic should work for California Is My Home, SCNCCA, Creative Space, or a new anchor host without adopting cPALSs governance.
 
 Convener role in practice:
 

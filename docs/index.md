@@ -1,10 +1,8 @@
 ---
 status: stub
-title: Festival Season Networks
+title: Festival Season Network
 layout: default
 ---
-
-# Festival Season Networks
 
 Open-source assets for **Lunar New Year & Autumn Festivals** — calendars, research, ecosystem graphs, playbooks, group-activity kits, and case studies.
 

@@ -4,8 +4,6 @@ asset_type: guide
 season: autumn
 ---
 
-# Autumn — market research
-
 ## Market landscape (live)
 
 **Source of truth:** [Greater Sacramento Autumn Season - Market Landscape](https://docs.google.com/spreadsheets/d/1Va0oCv09nyW98-JnWL9DuYYTsXG35cxjf_WqBZsySrA/edit) — edit **All** only; browse **2026** section bands and **2025** on year tabs.

@@ -5,8 +5,6 @@ asset_type: guide
 season: autumn
 ---
 
-# Same calendar, different story
-
 *Bao Thien Ngo · cPALSs MAF Co-Chair · June 2026*
 
 Greater Sacramento runs a crowded autumn calendar — multiple Mid-Autumn hosts, parish fairs, campus events, civic fall festivals, and retail activations. This page is one organizer's read on how to **assign lanes** instead of treating the list like a turf war.
